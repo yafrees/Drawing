@@ -2,7 +2,6 @@ package com.yf.drawing;
 
 import android.content.Context;
 import android.graphics.Canvas;
-import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.View;
 
@@ -37,18 +36,36 @@ public class CustomView extends View {
 //        //绘制空心圆
 //        canvas.drawCircle(200 , 500 , 90 , paint);
 
-        /**
-         * 绘制矩形
-         * */
-        Paint paint = new Paint();
-        paint.setAntiAlias(true);
-        paint.setColor(getResources().getColor(android.R.color.holo_orange_light));
-        //绘制正方形
-        canvas.drawRect(100,100,300,300,paint);
-        paint.setStyle(Paint.Style.STROKE);
-        paint.setStrokeWidth(10);
-        //绘制空心矩形
-        canvas.drawRect(100,400,400,800,paint);
+
+//        /**
+//         * 绘制矩形
+//         * */
+//        Paint paint = new Paint();
+//        paint.setAntiAlias(true);
+//        paint.setColor(getResources().getColor(android.R.color.holo_orange_light));
+//        //绘制正方形
+//        canvas.drawRect(100,100,300,300,paint);
+//        paint.setStyle(Paint.Style.STROKE);
+//        paint.setStrokeWidth(10);
+//        //绘制空心矩形
+//        canvas.drawRect(100,400,400,800,paint);
+
+
+//        /**
+//         * 绘制圆角矩形
+//         * */
+//        Paint paint = new Paint();
+//        paint.setAntiAlias(true);
+//        paint.setColor(getResources().getColor(android.R.color.holo_green_light));
+//        //绘制圆角矩形
+//        canvas.drawRoundRect(100,100,300,300,30,30,paint);
+//        //设置空心style
+//        paint.setStyle(Paint.Style.STROKE);
+//        //设置空心宽度的边框
+//        paint.setStrokeWidth(20);
+//        //绘制空心圆矩形
+//        canvas.drawRoundRect(100,400,600,800,30,30,paint);
+
 
 
 
