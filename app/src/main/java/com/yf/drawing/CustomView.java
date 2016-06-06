@@ -2,6 +2,7 @@ package com.yf.drawing;
 
 import android.content.Context;
 import android.graphics.Canvas;
+import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.View;
 
@@ -65,6 +66,24 @@ public class CustomView extends View {
 //        paint.setStrokeWidth(20);
 //        //绘制空心圆矩形
 //        canvas.drawRoundRect(100,400,600,800,30,30,paint);
+
+
+//        /**
+//         *绘制椭圆
+//         * */
+//        Paint paint = new Paint();
+//        //去锯齿
+//        paint.setAntiAlias(true);
+//        //设置颜色
+//        paint.setColor(getResources().getColor(android.R.color.holo_orange_dark));
+//        //绘制椭圆
+//        canvas.drawOval(100, 100, 500, 300, paint);
+//        //设置空心Style
+//        paint.setStyle(Paint.Style.STROKE);
+//        //设置空心边框的宽度
+//        paint.setStrokeWidth(20);
+//        //绘制空心椭圆
+//        canvas.drawOval(100, 400, 600, 800, paint);
 
 
 
