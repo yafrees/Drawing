@@ -2,7 +2,6 @@ package com.yf.drawing;
 
 import android.content.Context;
 import android.graphics.Canvas;
-import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.View;
 
@@ -84,6 +83,31 @@ public class CustomView extends View {
 //        paint.setStrokeWidth(20);
 //        //绘制空心椭圆
 //        canvas.drawOval(100, 400, 600, 800, paint);
+
+
+//        /**
+//         * 绘制弧
+//         * */
+//        Paint paint = new Paint();
+//        //去锯齿
+//        paint.setAntiAlias(true);
+//        //设置颜色
+//        paint.setColor(getResources().getColor(android.R.color.holo_orange_dark));
+//        RectF rel = new RectF(100, 100, 300, 300);
+//        //实心圆弧
+//        canvas.drawArc(rel, 0, 270, false, paint);
+//        //实心圆弧 将圆心包含在内
+//        RectF rel2 = new RectF(100, 400, 300, 600);
+//        canvas.drawArc(rel2, 0, 270, true, paint);
+//        //设置空心Style
+//        paint.setStyle(Paint.Style.STROKE);
+//        paint.setStrokeWidth(20);
+//
+//        RectF rel3 = new RectF(100, 700, 300, 900);
+//        canvas.drawArc(rel3, 0, 270, false, paint);
+//
+//        RectF rel4 = new RectF(100, 1000, 300, 1200);
+//        canvas.drawArc(rel4, 0, 270, true, paint);
 
 
 
