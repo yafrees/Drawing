@@ -111,10 +111,18 @@ public class CustomView extends View {
 
 
 
-
-
-
-
+//        /**
+//         * 绘制文本
+//         * */
+//        Paint paint = new Paint();
+//        //去锯齿
+//        paint.setAntiAlias(true);
+//        //设置颜色
+//        paint.setColor(getResources().getColor(android.R.color.holo_orange_dark));
+//        paint.setTextSize(100);
+//        //绘制文本
+//        canvas.drawText("jEh", 80, 150, paint);
+        
 
     }
 }
